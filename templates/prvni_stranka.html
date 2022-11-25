@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="cz">
+<head>
+<meta charset="UTF-8" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" href="/static/mujstyl.css" />
+<title>Voda 2022</title>
+</head>
+<body>
+
+<h1>Rozsazení v lodích na vodáckém kurzu 2023 SPŠE Ječná</h1>
+<h2>Seznam registrovanych ucastniku</h2>
+{% for ucastnik in ucastnici %}
+      <h3>{{ ucastnik }}</h3>
+{% endfor %}
+<a style="text-decoration:none" href="druha_stranka"><button type="button"class="btn btn-info" >Registrovat se</button></a></body>
+</html>
